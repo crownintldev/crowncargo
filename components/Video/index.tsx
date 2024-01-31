@@ -57,7 +57,7 @@ const Video = () => {
       />
 
       <div className="absolute bottom-0 left-0 right-0 z-[-1]">
-        <img src="/images/video/shape.svg" alt="shape" className="w-full" />
+        <Image src="/images/video/shape.svg" alt="shape" className="w-full" width={300} height={300} />
       </div>
     </section>
   );
